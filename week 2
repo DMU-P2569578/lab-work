@@ -2,6 +2,11 @@
 <html lang="en" dir="ltr">
 
 <head>
+
+  <!-- ****** 
+       As with first.html, keep everything you want to display on the page in the <body> element. The <head> is for information 
+       about the page.
+       ****** -->
   <h1 style="color:white; background-color: black"> Dogs Become Valuable Employes at Bank</h1>
   <meta charset="utf-8">
   <title >Dogs Become Valuable Employes</title>
@@ -16,7 +21,21 @@
 
 </body>
 
+<!-- *****
+     In adding your week 2 content to the end, you've left this closing <body> tag halfway through the page.
+     It should be right down at the bottom, just before you close the html with </html> 
+     ***** -->
+
+
+<!-- *****
+     good use of comments here :) 
+     ****** -->
+     
 <!-- Week 2 tech015 -->
+
+<!-- *****
+     Don't start another head. Each HTML page has just one <head> and one <body> 
+     ****** -->
 <head>
   <h2 style="color: white; background-color: black"> Why dogs? </h2>
   <p>Some reasons to use dogs as employers are the following:</p>
@@ -28,6 +47,8 @@
 
   </ol>
 <!-- OL ordered list: numbers and points  and UL unnordered list: just an ordered list. --> 
+
+
   <h3> Businesses Suited to Animal Employees</h3>
 
   <p>Many businesses could benefit from embracing our feathered and furry friends in the workplace.</p>
