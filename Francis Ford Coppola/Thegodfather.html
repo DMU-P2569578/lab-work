@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Godfather</title>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <style media="screen">
+    .video {
+      margin: 1px;
+      border: 1px;
+
+    }
+    .synopsis {
+      width: 50%;
+      padding: 5px;
+      box-sizing: border-box;
+      float: left;
+    }
+    .poster {
+      width: 50%;
+      padding: 5px;
+      border: 3px;
+      box-sizing: border-box;
+      float: right;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--  Cool tip: When looking on the website for how your page looks it is
+  really helpfull to see it trough the developer tools where every part is highlighted
+  and you can clearly see your  errors or something that you missing while you coding.  -->
+
+  <div class="headertitle">
+
+
+
+    <h1 class="pagetitle"><a href="Thegodfather.html">The Godfather</a></h1>
+  </div>
+<!-- I'm using the id element to specify that this is just for the menu section, as nav and list elements are meant to be used for other purposes as well -->
+  <nav id="menu">
+    <ul>
+      <li> <a href="Thegodfather.html">About </a></li>
+      <li> <a href="secondpage.html">Cast members</a></li>
+      <!-- I'm adding a search form just to make the web look a little bit more organized. -->
+      <li>
+        <form>
+          <input type="search" name="q" placeholder="Search query">
+          <input type="submit" value="Find">
+        </form>
+      </li>
+    </ul>
+  </nav>
+  <article class="Synopisis film Thegodfather">
+
+    <section>
+
+
+
+      <h2>Synopisis The Godfather</h2>
+      <hr>
+        <div class="synopsis">
+
+
+      <p>The Godfather "Don" Vito Corleone is the head of the Corleone mafia family,
+        in New York. <br> He is at the event of his daughter's wedding. Michael, Vito's,
+        youngest son and a decorated <br> WW II Marine is also present at the wedding.
+        Michael seems to be uninterested in being a part <br> of the family business.
+      </p>
+      <p>
+        Vito is a powerful man, and is kind to all those who give him respect <br> but
+        is ruthless against those who do not. But when a powerful and treacherous <br>
+        rival wants to sell drugs and needs the Don's influence for the same, Vito
+        refuses to do it.
+      </p>
+      <p> What follows is a clash between Vito's fading old values
+        and the new ways which may cause Michael to <br> do the thing he was most
+        reluctant in doing and wage a mob war against all the other mafia
+        families <br> which could tear the Corleone family apart.</p>
+      <!-- We add line brakers in order that the website can run properly in any device cause we had problems with the spacing in smartphone devices. -->
+      <aside class="information related to the synopsis">
+        <h3>Movie information</h3>
+
+        <p> <strong>Directed by:</strong> <a href="https://en.wikipedia.org/wiki/Francis_Ford_Coppola"> Francis Ford Coppola</a></p>
+        <p> <strong>Based on: </strong> The Godsfather by <a href="https://en.wikipedia.org/wiki/Mario_Puzo"> Mario Puzo</a></p>
+        <p> <strong>Release date: </strong>
+          March 14, 1972 (Loew's State Theatre)
+          March 24, 1972 (United States)</p>
+
+      </aside>
+      </div>
+      <div class="poster">
+
+    <img src="images/poster2.jpg" alt="poster image of the Godfather" class="posterimage" style="max-width: 100%">
+</div>
+    </section>
+
+    <section>
+      <h2>Movie trailer</h2>
+      <hr>
+      <video controls poster="images/The-Godfather.png" class="video" width="100%">
+        <source src="video/trailer.mp4" type="video/mp4">
+        <source src="video/trailer.webm" type="video/webm">
+        <source src="video/trailer.ogv" type="video/ogg">
+        <p> <strong> If your browser does not support the video element </strong> please click <a href='video/trailer.mp4'>here</a>
+          to download an mp4 file of the video.</p>
+          <!--We are not implementing other video source others than mp4 as we want to see if the fallback download link is working. As this is
+        a coursework and not a "real project"  (something that is meant to use for others) we think that it is a good opportunity to try in the feedback part
+        of this coursework. -->
+      </video>
+    </section>
+<section>
+
+      <footer> Course work 1 Multimedia. Ali Siddibeh Kurubally/P2569578. </footer>
+
+    </section>
+  </article>
+
+
+</body>
+
+</html>
